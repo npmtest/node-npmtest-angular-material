@@ -1,8 +1,8 @@
 # npmtest-angular-material
 
-#### test coverage for  [angular-material (v1.1.3)](https://material.angularjs.org)  [![npm package](https://img.shields.io/npm/v/npmtest-angular-material.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-angular-material) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-angular-material.svg)](https://travis-ci.org/npmtest/node-npmtest-angular-material)
+#### basic test coverage for  [angular-material (v1.1.4)](https://material.angularjs.org)  [![npm package](https://img.shields.io/npm/v/npmtest-angular-material.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-angular-material) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-angular-material.svg)](https://travis-ci.org/npmtest/node-npmtest-angular-material)
 
-#### This repository is used only for Angular Material v1.x library deployments and localized installs using `npm` and `bower`. The actual component source-code for this library is in the [main Angular Material repository](https://github.com/angular/material).
+#### This repository is used only for AngularJS Material v1.x library deployments and localized installs using `npm` and `bower`. The actual component source-code for this library is in the [main AngularJS Material repository](https://github.com/angular/materi
 
 [![NPM](https://nodei.co/npm/angular-material.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/angular-material)
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-angular-material/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-angular-material/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-angular-material/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-angular-material/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-angular-material/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-angular-material/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-angular-material/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-angular-material/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-angular-material/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-angular-material/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-angular-material/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-angular-material/build/coverage.html/index.html)
 
@@ -39,15 +39,15 @@
         "url": "https://github.com/angular/material/issues"
     },
     "dependencies": {},
-    "description": "This repository is used only for Angular Material v1.x library deployments and localized installs using 'npm' and 'bower'. The actual component source-code for this library is in the [main Angular Material repository](https://github.com/angular/material).",
+    "description": "This repository is used only for AngularJS Material v1.x library deployments and localized installs using 'npm' and 'bower'. The actual component source-code for this library is in the [main AngularJS Material repository](https://github.com/angular/materi",
     "devDependencies": {},
     "directories": {},
     "dist": {
-        "shasum": "b466d53aaa42c1555766a1ded53a28baeb7b2fe6",
-        "tarball": "https://registry.npmjs.org/angular-material/-/angular-material-1.1.3.tgz"
+        "shasum": "27de35646f54ccd320080af0c708e1b438af87f6",
+        "tarball": "https://registry.npmjs.org/angular-material/-/angular-material-1.1.4.tgz"
     },
     "format": "cjs",
-    "gitHead": "a5a5a0de1454a93c71d6dc9c8e8aecbaa221b927",
+    "gitHead": "0b0264d0b8b72090de6f52354ca91bb8411c8bdb",
     "homepage": "https://material.angularjs.org",
     "jspm": {
         "dependencies": {
@@ -85,9 +85,9 @@
     "name": "angular-material",
     "optionalDependencies": {},
     "peerDependencies": {
-        "angular": ">=1.3 <1.6",
-        "angular-animate": ">=1.3 <1.6",
-        "angular-aria": ">=1.3 <1.6"
+        "angular": ">=1.3 <1.7",
+        "angular-animate": ">=1.3 <1.7",
+        "angular-aria": ">=1.3 <1.7"
     },
     "registry": "github",
     "repository": {
@@ -95,7 +95,8 @@
         "url": "git://github.com/angular/material.git"
     },
     "scripts": {},
-    "version": "1.1.3"
+    "version": "1.1.4",
+    "bin": {}
 }
 ```
 
